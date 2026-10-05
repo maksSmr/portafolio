@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio profesional de desarrollador FullStack.">
+  <title>Portafolio — Desarrollador</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Saltar al contenido</a>
+
+  <header>
+    <div class="logo">MiPortafolio</div>
+    <button id="dark-mode-toggle" aria-label="Cambiar modo oscuro">🌙</button>
+    <button id="menu-toggle" aria-label="Abrir menú">☰</button>
+    <nav id="nav-menu">
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section id="inicio">
+      <h2>Hola, soy un Desarrollador Web</h2>
+      <p>Construyo soluciones digitales eficientes y accesibles.</p>
+      <a href="#contacto" class="btn">Contáctame</a>
+    </section>
+
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>Estudiante apasionado por la tecnología, el desarrollo de software y la creación de aplicaciones web modernas, funcionales y orientadas a la experiencia de usuario.</p>
+    </section>
+
+    <section id="proyectos">
+      <h2>Proyectos</h2>
+      <div class="proyectos-grid">
+        <article class="proyecto">
+          <h3>Proyecto 1</h3>
+          <p>Descripción breve del proyecto y las tecnologías utilizadas.</p>
+          <a href="#" target="_blank">Ver código</a>
+        </article>
+        <article class="proyecto">
+          <h3>Proyecto 2</h3>
+          <p>Descripción breve del proyecto y las tecnologías utilizadas.</p>
+          <a href="#" target="_blank">Ver código</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="habilidades">
+      <h2>Habilidades</h2>
+      <ul>
+        <li>HTML5 y CSS3</li>
+        <li>JavaScript (ES6+)</li>
+        <li>Git y GitHub</li>
+        <li>Bases de datos</li>
+      </ul>
+    </section>
+  </main>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <form id="contact-form">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="email">Correo:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" required></textarea>
+
+      <button type="submit">Enviar mensaje</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2026. Todos los derechos reservados.</p>
+  </footer>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
